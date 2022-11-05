@@ -40,6 +40,7 @@ $ vagrant ssh
 ```
 $ uname -r
 ```
+```
 Вывод:
 [vagrant@localhost ~]$ uname -r 
 6.0.7-1.el7.elrepo.x86_64
