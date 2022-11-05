@@ -4,9 +4,9 @@
 # version of kernel Centos 7.7 6.0.7-1.el7.elrepo.x86_64 
 # virtualbox Hosted by Vagrant Cloud (841 MB) Provided 
 ```
-<strong>
-How to use this box with Vagrant:*
-</strong>
+
+**How to use this box with Vagrant:**
+
 
 Vagrantfile
 ```
