@@ -27,6 +27,9 @@ $ cd ~/otus
 Загрузить репозиторий из github и копируем к себе Vagrantfile: 
 ```
 $ git clone https://github.com/maksmaxis/manual_kernel_update.git
+```
+Копируем Vagrantfile в нашу созданную ранее директорию:
+```
 $ cp Vagrantfile ~/otus
 ```
 Загружаем первую виртуальную машину Vagrant и вводим команду:
@@ -34,11 +37,14 @@ $ cp Vagrantfile ~/otus
 $ vagrant up
 ```
 Чтобы проверить его работоспособность производится подключение SSH к виртуальной машине: 
+```
 $ vagrant ssh
-
+```
 После запуска VM мы можем проверить бокc командой:
 ```
 $ vagrant box list
+```
+```
 urenat/centos-7.7.1908 (virtualbox, 1.0)
 ```
 Остановка работы среды:
