@@ -28,10 +28,6 @@ $ cd ~/otus
 ```
 $ git clone https://github.com/maksmaxis/manual_kernel_update.git
 ```
-Копируем Vagrantfile в нашу созданную ранее директорию:
-```
-$ cp Vagrantfile ~/otus
-```
 Загружаем первую виртуальную машину Vagrant и вводим команду:
 ```
 $ vagrant up
