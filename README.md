@@ -1,11 +1,19 @@
-```
+/*
 # manual_kernel_update centos-7.7.1908 Vagrant box
 # v1.0 currently released version
 # version of kernel Centos 7.7 6.0.7-1.el7.elrepo.x86_64 
 # virtualbox Hosted by Vagrant Cloud (841 MB) Provided 
-```
+*/
 
 *How to use this box with Vagrant:*
+
+Vagrantfile
+```
+Vagrant.configure("2") do |config|
+  config.vm.box = "urenat/centos-7.7.1908"
+  config.vm.box_version = "1.0"
+end
+```
 
 Первым шагом для Vagrant является создание корневой директории проекта и инициализация проекта:
 ```
