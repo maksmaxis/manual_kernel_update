@@ -24,7 +24,7 @@ $ mkdir ~/otus
 ```
 $ cd ~/otus
 ```
-Загрузить репозиторий из github и копируем к себе Vagrantfile: 
+Загрузить репозиторий из github: 
 ```
 $ git clone https://github.com/maksmaxis/manual_kernel_update.git
 ```
