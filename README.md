@@ -1,11 +1,12 @@
-<strong>
+```
 # manual_kernel_update centos-7.7.1908 Vagrant box
 # v1.0 currently released version
 # version of kernel Centos 7.7 6.0.7-1.el7.elrepo.x86_64 
 # virtualbox Hosted by Vagrant Cloud (841 MB) Provided 
+```
+<strong>
+How to use this box with Vagrant:*
 </strong>
-
-*How to use this box with Vagrant:*
 
 Vagrantfile
 ```
