@@ -51,7 +51,7 @@ logout
 ```
 После мы можем проверить бокc командой:
 ```
-$ vagrant box list
+$ vagrant box list | grep 1908
 ```
 ```
 urenat/centos-7.7.1908 (virtualbox, 1.0)
